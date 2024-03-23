@@ -1,7 +1,75 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+  height: 10vh;
+  width: 99%;
+  font-size: 12px;
+  font-family: 'Gotham-Black';
+  color: #666;
+  text-align: left;
+  border-radius: 12px;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  z-index: 3; }
+
+/* Estilos para la lista de índice */
+.index {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 6%;
+  bottom: 0;
+  margin-bottom: 1.25rem;
+  list-style: none;
+  z-index: 2; }
+
+.index li {
+  margin: .375rem;
+  color: rgba(163, 177, 198, 0.6); }
+
+.home {
+  color: #000; }
+
+.index li a {
+  text-decoration: none;
+  color: #5d5b5bc7; }
+
+.login {
+  position: absolute;
+  right: 2%;
+  top: 25%;
+  z-index: 2; }
+  .login a {
+    text-decoration: none;
+    margin-left: .625rem; }
+
+.descubri img {
+  position: absolute;
+  margin-top: -170px;
+  width: 99vw;
+  z-index: 1; }
+
+.descubri h1,
+h2 {
+  position: absolute;
+  font-size: 3.4375rem;
+  font-family: sans-serif;
+  z-index: 3; }
+
+.descubri h3 {
+  position: absolute;
+  margin-top: 60px; }
 
 .footer-footer-more {
   display: flex;
