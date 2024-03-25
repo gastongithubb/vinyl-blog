@@ -22,7 +22,8 @@ header {
     font-family:sans-serif;
     text-align: left;
     border-radius: 12px;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
     box-shadow: #666666;
     z-index: 3;
     
@@ -73,7 +74,7 @@ header {
 
 .nov-text {
     color: #000;
-    top: 130%;
+    top: 110%;
     z-index: 3;
 }
 
@@ -82,6 +83,7 @@ header {
     width: 99vw;
     border-radius: 0 0 30px 30px;
     gap: 30px;
+    margin-top: -10%;
     z-index: 1;
 }
 
@@ -111,7 +113,7 @@ h2, h3 {
 
 .novedades {
     display: grid;
-    top: 20px;
+    top: 10px;
     width: 100%;
     height: 800px;
     grid-template-columns: repeat(5, 1fr);
@@ -145,7 +147,7 @@ h2, h3 {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    top: 235%;
+    top: 215%;
     align-content: space-around;
     background: linear-gradient(to bottom, transparent, black);
     border-radius: 10px;
@@ -168,7 +170,7 @@ h2, h3 {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    top: 185%;
+    top: 165%;
     left: 62%;
     align-content: space-around;
     background: linear-gradient(to bottom, transparent, black);
@@ -186,11 +188,179 @@ h2, h3 {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    top: 243%;
+    top: 223%;
     left: 62%;
     align-content: space-around;
     background: linear-gradient(to bottom, transparent, black);
     border-radius: 10px;
+}
+
+.explore img {
+    width: 99vw;
+    height: 100vh;
+    border-radius: 0 0 30px 30px;
+    margin-top: -25%;
+    z-index: 1;
+}
+
+.explore h2 {
+    font-size: 200px;
+    top: 30%;
+    background: rgb(255,158,0);
+    background: linear-gradient(90deg, rgba(255,158,0,1) 14%, rgba(123,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text {
+    padding: 10px;
+    padding-bottom: 10%;
+    font-size: 20px;
+}
+
+.novedades1 {
+    display: grid;
+    top: 10px;
+    width: 100%;
+    height: 800px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+    "img1 img1 img1 img2 img2"
+    "img1 img1 img1 img3 img3";
+}
+
+.nov-text1 {
+    color: #000;
+    top: 96%;
+    z-index: 3;
+}
+
+
+.lolla1 {
+    grid-area: img1;
+    width: 100%;
+    h2 {
+        z-index: 3;
+    }
+}
+.sza1 {
+    grid-area: img2;
+    width: 100%;
+    border-radius: 30px;
+}
+.sam-smith1 {
+    grid-area: img3;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.lolla1 h2 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    top: 205%;
+    align-content: space-around;
+    background: linear-gradient(to bottom, transparent, black);
+    border-radius: 10px;
+}
+
+.lolla1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.sza1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.sza1 h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    top: 155%;
+    left: 62%;
+    align-content: space-around;
+    background: linear-gradient(to bottom, transparent, black);
+    border-radius: 10px;
+}
+
+.sam-smith1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.sam-smith1 h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    top: 213%;
+    left: 62%;
+    align-content: space-around;
+    background: linear-gradient(to bottom, transparent, black);
+    border-radius: 10px;
+}
+
+.portada h1 {
+    position: absolute;
+    font-size: 70px;
+    top: 60%;
+    left: 2%;
+    color:#FFFFFF;
+    z-index: 3;
+}
+
+
+.portada img {
+    width: 99vw;
+    height: 100%;
+    border-radius: 0 0 30px 30px;
+    margin-top: -95%;
+    z-index: 1;
+}
+
+.vibraciones h3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    color: #000;
+    top: 75%;
+    margin-left: 40px;
+}
+
+.vibraciones p {
+    display: flex;
+    padding-top: 3%;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: poppins;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.dias img {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 700px;
+    height: 100%;
+    border-radius: 40px;
+    margin-left: 60%;
+}
+
+.tres-dias h3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 27px;
+    color: #000;
+    top: 124%;
+    margin-left: 40px;
 }
 
 .footer-footer-more {
@@ -199,6 +369,7 @@ h2, h3 {
     margin-top: 10%;
     width: 100%;
     align-items: flex-start;
+    align-content: center;
     gap: 11.24px;
     padding: 46.1px 111.31px;
     position: relative;
