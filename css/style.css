@@ -5,7 +5,8 @@
   box-sizing: border-box; }
 
 body {
-  font-family: Arial, sans-serif; }
+  font-family: Arial, sans-serif;
+  background-color: #C0C0C0; }
 
 header {
   display: flex;
@@ -60,9 +61,18 @@ header {
     color: #000;
     margin-left: .625rem; }
 
+.descubri {
+  padding-bottom: 5%; }
+
+.nov-text {
+  color: #000;
+  top: 130%;
+  z-index: 3; }
+
 .descubri img {
   width: 99vw;
   border-radius: 0 0 30px 30px;
+  gap: 30px;
   z-index: 1; }
 
 .descubri h1,
@@ -87,32 +97,87 @@ h2, h3 {
   margin-top: 60px; }
 
 .novedades {
-  display: flex;
-  flex-direction: row;
-  font-family: 'Montserrat';
-  align-items: center; }
-  .novedades h2 {
-    color: #ffffff;
-    top: 50%;
+  display: grid;
+  top: 20px;
+  width: 100%;
+  height: 800px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  grid-template-areas: "img1 img1 img1 img2 img2" "img1 img1 img1 img3 img3"; }
+
+.lolla {
+  grid-area: img1;
+  width: 100%; }
+  .lolla h2 {
     z-index: 3; }
 
-.lolla img {
-  width: 814px;
-  height: 100%;
+.sza {
+  grid-area: img2;
+  width: 100%;
+  border-radius: 30px; }
+
+.sam-smith {
+  grid-area: img3;
+  width: 100%;
+  border-radius: 30px; }
+
+.lolla h2 {
+  display: flex;
+  flex-direction: column;
   flex-shrink: 0;
-  gap: 20px;
-  border-radius: 30px;
-  background: linear-gradient(180deg, rgba(17, 17, 17, 0) 69.5%, #111 100%); }
+  top: 235%;
+  align-content: space-around;
+  background: linear-gradient(to bottom, transparent, black);
+  border-radius: 10px; }
+
+.lolla img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px; }
+
+.sza img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px; }
+
+.sza h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  top: 185%;
+  left: 62%;
+  align-content: space-around;
+  background: linear-gradient(to bottom, transparent, black);
+  border-radius: 10px; }
+
+.sam-smith img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px; }
+
+.sam-smith h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  top: 243%;
+  left: 62%;
+  align-content: space-around;
+  background: linear-gradient(to bottom, transparent, black);
+  border-radius: 10px; }
 
 .footer-footer-more {
   display: flex;
   flex-direction: column;
-  width: 1440.31px;
+  margin-top: 10%;
+  width: 100%;
   align-items: flex-start;
   gap: 11.24px;
   padding: 46.1px 111.31px;
   position: relative;
-  background-color: #ffffff;
+  background-color: #C0C0C0;
   border: 1px solid;
   border-color: transparent; }
 
@@ -127,7 +192,7 @@ h2, h3 {
 
 .footer-footer-more .divider {
   position: relative;
-  width: 1217.31px;
+  width: 100%;
   height: 1px;
   background-color: #66666640; }
 
@@ -202,7 +267,8 @@ h2, h3 {
   align-items: flex-start;
   gap: 15.99px;
   position: relative;
-  flex: 0 0 auto; }
+  flex: 0 0 auto;
+  color: none; }
 
 .footer-footer-more .img {
   position: relative;
