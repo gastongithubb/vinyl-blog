@@ -150,7 +150,7 @@ h2, h3 {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    top: 215%;
+    top: 165%;
     align-content: space-around;
     background: linear-gradient(to bottom, transparent, black);
     border-radius: 10px;
@@ -158,13 +158,13 @@ h2, h3 {
 
 .lolla img{
     width: 100%;
-    height: 100%;
+    height: 50%;
     border-radius: 30px;
 }
 
 .sza img {
     width: 100%;
-    height: 100%;
+    height: 50%;
     border-radius: 30px;
 }
 
@@ -173,7 +173,7 @@ h2, h3 {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    top: 165%;
+    top: 182%;
     left: 62%;
     align-content: space-around;
     background: linear-gradient(to bottom, transparent, black);
@@ -191,7 +191,7 @@ h2, h3 {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    top: 223%;
+    top: 239%;
     left: 62%;
     align-content: space-around;
     background: linear-gradient(to bottom, transparent, black);
