@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #C0C0C0;
+    background-color: #f7f7f7;
 }
 
 header {
@@ -204,6 +204,7 @@ h2, h3 {
 }
 
 .explore h2 {
+    width: 100%;
     font-size: 200px;
     top: 33%;
     background: rgb(255,158,0);
@@ -452,7 +453,52 @@ h2, h3 {
     z-index: 1;
 }
 
+.sam-regresa img {
+    width: 800px;
+    height: 800px;
+    margin-left: 53%;
+    margin-top: 2%;
+}
 
+.sam-regresa h3 {
+    font-size: 27px;
+    color: #000;
+    top: 103%;
+    width: 850px;
+    margin-left: 40px;
+}
+
+.sam-regresa p {
+    color: #000;
+    margin-top: -40%;
+    margin-left: 40px;
+    margin-bottom: 10%;
+    font-family: poppins;
+    text-align: justify;
+    font-size: 22px;
+    width: 850px;
+    z-index: 3;
+}
+
+.la-voz h3 {
+    font-size: 27px;
+    color: #000;
+    top: 195%;
+    width: 850px;
+    margin-left: 40px;
+}
+
+.la-voz p {
+    color: #000;
+    margin-top: -6%;
+    margin-left: 40px;
+    margin-bottom: 10%;
+    font-family: poppins;
+    text-align: justify;
+    font-size: 22px;
+    width: 96%;
+    z-index: 3;
+}
 
 .footer-footer-more {
     display: flex;
