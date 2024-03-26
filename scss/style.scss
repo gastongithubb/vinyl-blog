@@ -330,7 +330,7 @@ h2, h3 {
     width: 99vw;
     height: 100%;
     border-radius: 0 0 30px 30px;
-    margin-top: -95%;
+    margin-top: -23%;
     z-index: 1;
 }
 
@@ -851,4 +851,11 @@ a:hover {
     padding: 0px 0px 0px 8px;
     position: relative;
     flex: 0 0 auto;
+}
+
+
+
+
+@media(max-width: 768px){
+
 }
