@@ -119,7 +119,8 @@ h2, h3 {
 .sza {
   grid-area: img2;
   width: 100%;
-  border-radius: 30px; }
+  border-radius: 30px;
+  margin-left: -63%; }
 
 .sam-smith {
   grid-area: img3;
@@ -573,7 +574,7 @@ a:hover {
 .footer-footer-more {
   display: flex;
   flex-direction: column;
-  margin-top: 25%;
+  margin-top: 20%;
   width: 100%;
   align-items: flex-start;
   align-content: center;
