@@ -105,6 +105,7 @@ h2, h3 {
     background: rgb(255,158,0);
     background: linear-gradient(90deg, rgba(255,158,0,1) 64%, rgba(231,220,49,1) 78%, rgba(237,241,44,1) 89%, rgba(58,241,33,1) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -213,6 +214,7 @@ h2, h3 {
     background: rgb(255,158,0);
     background: linear-gradient(90deg, rgba(255,158,0,1) 14%, rgba(123,0,255,1) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -856,6 +858,262 @@ a:hover {
 
 
 
-@media(max-width: 768px){
+@media (max-width: 768px) {
+    header {
+        height: 9vh;
+        font-size: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
+    .logo {
+        width: 15px;
+    }
+
+    .index {
+        left: 50px;
+        gap: 5px;
+        font-size: 0.8rem;
+    }
+
+    .index li {
+        padding-left: 10px;
+    }
+
+    .login {
+        right: 10px;
+        font-size: 0.8rem;
+        margin-top: -2px;
+    }
+
+    .login a {
+        margin-left: 0.4rem;
+    }
+
+    .descubri img {
+        width: 100%;
+    }
+
+    .descubri h1,
+    .descubri h2,
+    .descubri h3 {
+        font-size: 1.6rem;
+    }
+
+    .descubri h2 {
+        padding-left: 200px;
+    }
+
+    .novedades {
+        display: grid;
+        width: 100%;
+        height: 300px;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "img1 img1"
+            "img3 img2"
+            ". .";
+    }
+
+    .nov-text {
+        margin-left: 10px;
+        font-size: 1.2rem;
+        margin-top: -32%;
+    }
+
+    .lolla img {
+        grid-area: img1;
+        width: 98%;
+        height: 300px;
+        margin-left: 10px;
+    }
+
+    .lolla h2{
+        top: 114%;
+        left: 2%;
+        font-size: 1.2rem;
+    }
+
+    .sza {
+        grid-area: img2;
+    }
+    .img2 {
+        height: 98%;
+        margin-left: 40%;
+    }
+    .sza h2 {
+        top: 152%;
+        left: 50%;
+        font-size: 1.2rem;
+    }
+
+    .sam-smith img {
+        grid-area: img3;
+        width: 98%;
+        height: 100%;
+        margin-left: 10px;
+        height: 75%;
+    }
+
+    .sam-smith h2 {
+        top: 152%;
+        left: 10px;
+        font-size: 1.2rem;
+    }
+
+    .explore h2 {
+        font-size: 3rem;
+    }
+
+    .novedades1 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "img1 img1"
+            "img2 img2"
+            "img3 img3";
+    }
+
+    .lolla1 h2,
+    .sza1 h2,
+    .sam-smith1 h2 {
+        top: unset;
+        left: unset;
+        font-size: 1.2rem;
+    }
+
+    .portada h1 {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .vibraciones h3,
+    .tres-dias h3,
+    .dia-uno h3,
+    .dia-dos h3,
+    .dia-tres h3,
+    .sam-regresa h3,
+    .la-voz h3,
+    .sza-deslumbra h3 {
+        font-size: 1.2rem;
+    }
+
+    .vibraciones p,
+    .tres-dias p,
+    .dia-uno p,
+    .dia-dos p,
+    .dia-tres p,
+    .sam-regresa p,
+    .la-voz p,
+    .sza-deslumbra p {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    .dias img {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .portada-sam h2,
+    .portada-sza h2 {
+        font-size: 3rem;
+    }
+
+    .sam-regresa img,
+    .sza img {
+        width: 50%;
+        height: auto;
+        margin-left: 25%;
+    }
+
+    .logo-vinyl {
+        margin-top: -100%;
+        margin-left: 10%;
+    }
+
+    .logo-vinyl h1 {
+        font-size: 2rem;
+    }
+
+    .footer-footer-more {
+        padding: 20px 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 50%;
+        overflow-x: hidden;
+    }
+
+    .footer-footer-more .frame {
+        gap: 10px;
+        width: 48%;
+        flex-direction: column;
+    }
+
+    .footer-footer-more .divider {
+        display: none;
+    }
+
+    .footer-footer-more .div {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .footer-footer-more .frame-2 {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .footer-footer-more .frame-3 {
+        gap: 5px;
+        width: 100%;
+    }
+
+    .footer-footer-more .frame-4 {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer-footer-more .img {
+        width: 100%;
+        height: auto;
+        max-width: 120px;
+    }
+
+    .footer-footer-more .frame-5 {
+        width: 100%;
+    }
+
+    .footer-footer-more .frame-6 {
+        flex-direction: column;
+        gap: 5px;
+        width: 48%;
+    }
+
+    .footer-footer-more .links {
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .footer-footer-more .frame-7 {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 48%;
+    }
+
+    .footer-footer-more .frame-8 {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 }
