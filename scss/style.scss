@@ -860,6 +860,7 @@ a:hover {
 
 @media (max-width: 768px) {
     header {
+        width: 99.9%;
         height: 9vh;
         font-size: 10px;
         margin-left: 0;
@@ -871,7 +872,7 @@ a:hover {
     }
 
     .index {
-        left: 50px;
+        left: 55px;
         gap: 5px;
         font-size: 0.8rem;
     }
@@ -920,7 +921,7 @@ a:hover {
     .nov-text {
         margin-left: 10px;
         font-size: 1.2rem;
-        margin-top: -32%;
+        margin-top: -59%;
     }
 
     .lolla img {
@@ -931,20 +932,22 @@ a:hover {
     }
 
     .lolla h2{
-        top: 114%;
+        top: 89%;
         left: 2%;
         font-size: 1.2rem;
     }
 
     .sza {
         grid-area: img2;
+        width: 98%;
+        height: 100%;
     }
     .img2 {
-        height: 98%;
+        width: 98%;
         margin-left: 40%;
     }
     .sza h2 {
-        top: 152%;
+        top: 116%;
         left: 50%;
         font-size: 1.2rem;
     }
@@ -958,63 +961,151 @@ a:hover {
     }
 
     .sam-smith h2 {
-        top: 152%;
+        top: 116%;
         left: 10px;
         font-size: 1.2rem;
     }
-
+    .explore img {
+        width: 100%;
+        height: 500px;
+    }
     .explore h2 {
+        top: 40%;
         font-size: 3rem;
     }
 
     .novedades1 {
+        width: 100%;
+        height: 300px;
+        gap: 10px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-template-areas:
             "img1 img1"
-            "img2 img2"
-            "img3 img3";
+            "img3 img2"
+            ". .";
     }
 
-    .lolla1 h2,
-    .sza1 h2,
+    .nov-text1 {
+        top: 108%;
+        font-size: 1.5rem;
+    }
+
+    .lolla1 img {
+        grid-area: img1;
+        width: 98%;
+        height: 300px;
+        margin-left: 10px;
+    }
+
+    .lolla1 h2{
+        top: 139%;
+        left: 2%;
+        font-size: 2.2rem;
+    }
+
+    .sza1 {
+        grid-area: img2;
+        width: 98%;
+        height: 100%;
+        margin-left: -40%;
+    }
+
+    .sza1 h2 {
+        top: 183%;
+        left: 50%;
+        font-size: 2.2rem;
+    }
+
+    .sam-smith1 img {
+        grid-area: img3;
+        width: 98%;
+        height: 300px;
+        margin-left: 10px;
+    }
+
     .sam-smith1 h2 {
-        top: unset;
-        left: unset;
-        font-size: 1.2rem;
+        top: 183%;
+        left: 10px;
+        font-size: 2.2rem;
     }
 
     .portada h1 {
+        top: 30%;
         width: 100%;
         font-size: 2rem;
     }
 
-    .vibraciones h3,
-    .tres-dias h3,
-    .dia-uno h3,
-    .dia-dos h3,
-    .dia-tres h3,
+    
     .sam-regresa h3,
     .la-voz h3,
     .sza-deslumbra h3 {
-        font-size: 1.2rem;
+        width: 300px;
+        font-size: 1rem;
+    }
+    .vibraciones h3 {
+        top: 38%;
+        width: 100%;
+        font-size: 1rem;
+    }
+    .tres-dias h3 {
+        font-size: 1rem;
+        top: 66%;
+        width:300px;
+    }
+    .dia-uno h3 {
+        top: 80%;
+        width: 300px;
+        font-size: 1rem;
+    }
+    .dia-dos h3 {
+        top: 101%;
+        width: 300px;
+        font-size: 1rem;
+    }
+    .dia-tres h3 {
+        top: 121%;
+        width: 300px;
+        font-size: 1rem;
     }
 
-    .vibraciones p,
-    .tres-dias p,
-    .dia-uno p,
-    .dia-dos p,
-    .dia-tres p,
+    
     .sam-regresa p,
     .la-voz p,
     .sza-deslumbra p {
-        font-size: 1rem;
+        font-size: .625rem;
+        width: 295px;
+    }
+    .vibraciones p {
+        margin-top: 10px;
+        font-size: .625rem;
         width: 90%;
     }
+    .tres-dias p {
+        margin-top: -55%;
+        font-size: .625rem;
+        width: 295px;
+    }
+    .dia-uno p {
+        margin-top: -2%;
+        font-size: .625rem;
+        width: 295px;
+    }
+    .dia-dos p {
+        margin-top: -4%;
+        font-size: .625rem;
+        width: 295px;
+    }
+    .dia-tres p {
+        margin-top: -4%;
+        font-size: .625rem;
+        width: 680px;
+    }
+
 
     .dias img {
         width: 50%;
-        margin-left: 25%;
+        margin-left: 45%;
     }
 
     .portada-sam h2,
@@ -1044,7 +1135,7 @@ a:hover {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-start;
-        margin-top: 50%;
+        margin-top: 70%;
         overflow-x: hidden;
     }
 
@@ -1115,5 +1206,77 @@ a:hover {
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        height: 8vh;
+        font-size: 8px;
+    }
+
+    .logo {
+        width: 10px;
+    }
+
+    .index {
+        left: 10px;
+        gap: 3px;
+        font-size: 0.7rem;
+    }
+
+    .index li {
+        padding-left: 5px;
+    }
+
+    .login {
+        right: 5px;
+        font-size: 0.7rem;
+        margin-top: -1px;
+    }
+
+    .login a {
+        margin-left: 0.2rem;
+    }
+
+    .descubri h1,
+    .descubri h2,
+    .descubri h3 {
+        font-size: 1.4rem;
+    }
+
+    .novedades {
+        height: 250px;
+        gap: 5px;
+    }
+
+    .nov-text {
+        margin-left: 5px;
+        font-size: 1rem;
+        margin-top: -22%;
+    }
+
+    .lolla img,
+    .sza img,
+    .sam-smith img {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .lolla h2,
+    .sza h2,
+    .sam-smith h2 {
+        font-size: 1rem;
+        top: unset;
+        left: unset;
+    }
+
+    .footer-footer-more {
+        padding: 10px;
+        margin-top: 20%;
+    }
+
+    .footer-footer-more .img {
+        max-width: 80px;
     }
 }
