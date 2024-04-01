@@ -475,12 +475,13 @@ h2, h3 {
 .sza img {
   width: 600px;
   height: 600px;
-  margin-top: 2%; }
+  margin-top: 0;
+  margin-left: 125%; }
 
 .sza p {
   color: #000;
   margin-top: -34%;
-  margin-left: 40%;
+  margin-left: 65%;
   margin-bottom: 10%;
   font-family: poppins;
   text-align: justify;
@@ -491,13 +492,24 @@ h2, h3 {
 .sza-deslumbra h3 {
   font-size: 27px;
   color: #000;
-  top: 162%;
+  top: 155%;
   width: 1000px;
   margin-left: 40px; }
 
 .sza-deslumbra p {
   color: #000;
-  margin-top: -3%;
+  margin-top: -5%;
+  margin-left: 40px;
+  margin-bottom: 10%;
+  font-family: poppins;
+  text-align: justify;
+  font-size: 22px;
+  width: 94%;
+  z-index: 3; }
+
+.large-sza {
+  color: #000;
+  margin-top: -10%;
   margin-left: 40px;
   margin-bottom: 10%;
   font-family: poppins;
@@ -904,7 +916,7 @@ a:hover {
     width: 300px;
     font-size: 1.5rem; }
   .sza-deslumbra h3 {
-    margin-top: -65%;
+    margin-top: -60%;
     margin-left: 3%;
     width: 600px;
     font-size: 1rem; }
