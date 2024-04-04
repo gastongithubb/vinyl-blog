@@ -5,6 +5,7 @@
   box-sizing: border-box; }
 
 body {
+  width: 98vw;
   font-family: Arial, sans-serif;
   background-color: #f7f7f7; }
 
@@ -119,9 +120,9 @@ h2, h3 {
 
 .sza {
   grid-area: img2;
-  width: 100%;
+  width: 30%;
   border-radius: 30px;
-  margin-left: -63%; }
+  margin-left: -70%; }
 
 .sam-smith {
   grid-area: img3;
@@ -175,7 +176,7 @@ h2, h3 {
   border-radius: 10px; }
 
 .explore img {
-  width: 99vw;
+  width: 98vw;
   height: 100vh;
   border-radius: 0 0 30px 30px;
   margin-top: -23%;
@@ -183,7 +184,7 @@ h2, h3 {
 
 .explore h2 {
   width: 100%;
-  font-size: 200px;
+  font-size: 10rem;
   top: 33%;
   background: #ff9e00;
   background: linear-gradient(90deg, #ff9e00 14%, #7b00ff 100%);
@@ -202,17 +203,17 @@ h2, h3 {
 
 .novedades1 {
   display: grid;
-  top: 10px;
-  width: 100%;
+  margin-top: -25px;
+  width: 98%;
   height: 800px;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 10px;
+  gap: 5px;
   grid-template-areas: "img1 img1 img1 img2 img2" "img1 img1 img1 img3 img3"; }
 
 .nov-text1 {
   color: #000;
-  top: 98%;
+  top: 100%;
   z-index: 3; }
 
 .lolla1 {
@@ -302,7 +303,7 @@ h2, h3 {
 
 .vibraciones p {
   display: flex;
-  padding-top: 3%;
+  padding-top: 4%;
   margin-left: 40px;
   margin-right: 40px;
   font-family: poppins;
@@ -315,50 +316,52 @@ h2, h3 {
   width: 700px;
   height: 100%;
   border-radius: 40px;
-  margin-left: 60%; }
+  margin-left: 50%; }
 
 .tres-dias h3 {
   display: flex;
   flex-direction: row;
   font-size: 27px;
   color: #000;
-  top: 124%;
-  margin-left: 40px; }
+  top: 154%;
+  margin-left: 40px;
+  width: 700px; }
 
 .tres-dias p {
   display: flex;
   flex-direction: row;
   color: #000;
-  margin-top: -45%;
+  margin-top: -55%;
   margin-left: 40px;
   margin-bottom: 10%;
   font-family: poppins;
   text-align: justify;
   font-size: 22px;
-  width: 1000px;
+  width: 650px;
   z-index: 3; }
 
 .dia-uno h3 {
   font-size: 27px;
   color: #000;
-  top: 145%;
-  margin-left: 40px; }
+  top: 185%;
+  margin-left: 40px;
+  width: 700px; }
 
 .dia-uno p {
   color: #000;
-  margin-top: -6%;
+  margin-top: -4%;
   margin-left: 40px;
   margin-bottom: 10%;
   font-family: poppins;
   text-align: justify;
   font-size: 22px;
-  width: 1000px;
+  width: 650px;
   z-index: 3; }
 
 .dia-dos h3 {
   font-size: 27px;
   color: #000;
-  top: 173%;
+  top: 235%;
   margin-left: 40px; }
 
 .dia-dos p {
@@ -369,13 +372,13 @@ h2, h3 {
   font-family: poppins;
   text-align: justify;
   font-size: 22px;
-  width: 1000px;
+  width: 650px;
   z-index: 3; }
 
 .dia-tres h3 {
   font-size: 27px;
   color: #000;
-  top: 201%;
+  top: 280%;
   margin-left: 40px; }
 
 .dia-tres p {
@@ -386,7 +389,7 @@ h2, h3 {
   font-family: poppins;
   text-align: justify;
   font-size: 22px;
-  width: 1000px;
+  width: 1350px;
   z-index: 3; }
 
 .portada-sam h2 {
@@ -405,10 +408,10 @@ h2, h3 {
   z-index: 1; }
 
 .sam-regresa img {
-  width: 800px;
-  height: 800px;
-  margin-left: 53%;
-  margin-top: -100%; }
+  width: 500px;
+  height: 500px;
+  margin-left: 63%;
+  margin-top: -10%; }
 
 .sam-regresa h3 {
   font-size: 27px;
@@ -425,42 +428,41 @@ h2, h3 {
   font-family: poppins;
   text-align: justify;
   font-size: 22px;
-  width: 850px;
+  width: 1350px;
   z-index: 3; }
 
 .la-voz h3 {
   font-size: 27px;
   color: #000;
-  top: 195%;
+  top: 185%;
   width: 850px;
   margin-left: 40px; }
 
 .la-voz p {
   color: #000;
-  margin-top: -6%;
+  margin-top: -30%;
   margin-left: 40px;
   margin-bottom: 10%;
   font-family: poppins;
   text-align: justify;
   font-size: 22px;
-  width: 850px;
+  width: 750px;
   z-index: 3; }
 
 .large {
   color: #000;
-  margin-top: -9%;
   margin-left: 40px;
   margin-bottom: 10%;
   font-family: poppins;
   text-align: justify;
   font-size: 22px;
-  width: 1700px;
+  width: 1350px;
   z-index: 3; }
 
 .portada-sza h2 {
   position: absolute;
-  font-size: 10rem;
-  top: 66%;
+  font-size: 12rem;
+  top: 60%;
   left: 2%;
   color: #FFFFFF;
   z-index: 3; }
@@ -473,26 +475,37 @@ h2, h3 {
   z-index: 1; }
 
 .sza img {
-  width: 600px;
-  height: 600px;
-  margin-top: 0;
-  margin-left: 125%; }
+  width: 400px;
+  height: 400px;
+  margin-top: 3%;
+  margin-left: 460%; }
 
 .sza p {
   color: #000;
-  margin-top: -34%;
-  margin-left: 65%;
+  margin-top: -94%;
+  margin-left: 240%;
   margin-bottom: 10%;
   font-family: poppins;
   text-align: justify;
   font-size: 22px;
-  width: 1000px;
+  width: 900px;
+  z-index: 3; }
+
+.sza-large {
+  color: #000;
+  margin-top: 300%;
+  margin-left: -525%;
+  margin-bottom: 10%;
+  font-family: poppins;
+  text-align: justify;
+  font-size: 22px;
+  width: 1350px;
   z-index: 3; }
 
 .sza-deslumbra h3 {
   font-size: 27px;
   color: #000;
-  top: 155%;
+  top: 187%;
   width: 1000px;
   margin-left: 40px; }
 
@@ -595,183 +608,9 @@ a:hover {
   font-weight: normal;
   margin-left: 5px; }
 
-.footer-footer-more {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20%;
-  width: 100%;
-  align-items: flex-start;
-  align-content: center;
-  gap: 11.24px;
-  padding: 46.1px 111.31px;
-  position: relative;
-  background-color: #C0C0C0;
-  border: 1px solid;
-  border-color: transparent; }
-
-.footer-footer-more .frame {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 39.98px;
-  position: relative;
-  flex: 0 0 auto; }
-
-.footer-footer-more .divider {
-  position: relative;
-  width: 100%;
-  height: 1px;
-  background-color: #66666640; }
-
-.footer-footer-more .div {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 154.91px;
-  position: relative;
-  flex: 0 0 auto; }
-
-.footer-footer-more .frame-2 {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 63.96px;
-  position: relative;
-  flex: 0 0 auto; }
-
-.footer-footer-more .frame-3 {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  position: relative;
-  flex: 0 0 auto; }
-
-.footer-footer-more .text-wrapper {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: #333333;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: normal; }
-
-.footer-footer-more .text-wrapper-2 {
-  position: relative;
-  width: fit-content;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: #666666;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal; }
-
-.footer-footer-more .text-wrapper-3 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: #333333;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal; }
-
-.footer-footer-more .text-wrapper-4 {
-  position: relative;
-  width: fit-content;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: #666666;
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal; }
-
-.footer-footer-more .frame-4 {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 15.99px;
-  position: relative;
-  flex: 0 0 auto;
-  color: none; }
-
-.footer-footer-more .img {
-  position: relative;
-  width: 179.9px;
-  height: 51.97px; }
-
-.footer-footer-more .frame-5 {
-  position: relative;
-  width: 1130.36px;
-  height: 23.99px; }
-
-.footer-footer-more .frame-6 {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 55.97px;
-  position: absolute;
-  top: 1px;
-  left: 0; }
-
-.footer-footer-more .text-wrapper-5 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: #333333;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal; }
-
-.footer-footer-more .links {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 23.99px;
-  position: relative;
-  flex: 0 0 auto; }
-
-.footer-footer-more .frame-7 {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 39.98px;
-  position: absolute;
-  top: 0;
-  left: 781px; }
-
-.footer-footer-more .frame-8 {
-  display: inline-flex;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 15.99px;
-  position: relative;
-  flex: 0 0 auto; }
-
-.footer-footer-more .img-2 {
-  position: relative;
-  width: 23.99px;
-  height: 23.99px; }
-
-.footer-footer-more .social-media-logo {
-  position: relative;
-  width: 19.99px;
-  height: 19.99px; }
-
-.footer-footer-more .dropdown {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2px;
-  padding: 0px 0px 0px 8px;
-  position: relative;
-  flex: 0 0 auto; }
-
 @media (max-width: 768px) {
   header {
-    width: 99.9%;
+    width: 100vw;
     height: 9vh;
     font-size: 10px;
     margin-left: 0;
@@ -791,7 +630,7 @@ a:hover {
   .login a {
     margin-left: 0.4rem; }
   .descubri img {
-    width: 100%; }
+    width: 100vw; }
   .descubri h1,
   .descubri h2,
   .descubri h3 {
@@ -809,14 +648,14 @@ a:hover {
   .nov-text {
     margin-left: 10px;
     font-size: 1.2rem;
-    margin-top: -59%; }
+    margin-top: -32%; }
   .lolla img {
     grid-area: img1;
     width: 98%;
     height: 300px;
     margin-left: 10px; }
   .lolla h2 {
-    top: 89%;
+    top: 116%;
     left: 2%;
     font-size: 1.2rem; }
   .sza {
@@ -827,7 +666,7 @@ a:hover {
     width: 98%;
     margin-left: 40%; }
   .sza h2 {
-    top: 116%;
+    top: 156%;
     left: 50%;
     font-size: 1.2rem; }
   .sam-smith img {
@@ -837,11 +676,11 @@ a:hover {
     margin-left: 10px;
     height: 75%; }
   .sam-smith h2 {
-    top: 116%;
+    top: 156%;
     left: 10px;
     font-size: 1.2rem; }
   .explore img {
-    width: 100%;
+    width: 100vw;
     height: 500px; }
   .explore h2 {
     top: 40%;
@@ -854,7 +693,7 @@ a:hover {
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "img1 img1" "img3 img2" ". ."; }
   .nov-text1 {
-    top: 108%;
+    top: 138%;
     font-size: 1.5rem; }
   .lolla1 img {
     grid-area: img1;
@@ -862,7 +701,7 @@ a:hover {
     height: 300px;
     margin-left: 10px; }
   .lolla1 h2 {
-    top: 139%;
+    top: 180%;
     left: 2%;
     font-size: 2.2rem; }
   .sza1 {
@@ -871,7 +710,7 @@ a:hover {
     height: 100%;
     margin-left: -40%; }
   .sza1 h2 {
-    top: 183%;
+    top: 233%;
     left: 50%;
     font-size: 2.2rem; }
   .sam-smith1 img {
@@ -880,39 +719,39 @@ a:hover {
     height: 300px;
     margin-left: 10px; }
   .sam-smith1 h2 {
-    top: 183%;
+    top: 233%;
     left: 10px;
     font-size: 2.2rem; }
   .portada h1 {
-    top: 30%;
+    top: 40%;
     width: 100%;
     font-size: 2rem; }
   .vibraciones h3 {
-    top: 38%;
+    top: 50%;
     width: 100%;
     font-size: 1rem; }
   .tres-dias h3 {
     font-size: 1rem;
-    top: 66%;
+    top: 87%;
     width: 300px; }
   .dia-uno h3 {
-    top: 80%;
+    top: 105%;
     width: 300px;
     font-size: 1rem; }
   .dia-dos h3 {
-    top: 101%;
+    top: 133%;
     width: 300px;
     font-size: 1rem; }
   .dia-tres h3 {
-    top: 121%;
+    top: 160%;
     width: 300px;
     font-size: 1rem; }
   .sam-regresa h3 {
-    top: 50%;
+    top: 65%;
     width: 95%;
     font-size: 1.5rem; }
   .la-voz h3 {
-    top: 120%;
+    top: 155%;
     width: 300px;
     font-size: 1.5rem; }
   .sza-deslumbra h3 {
@@ -974,13 +813,14 @@ a:hover {
     width: 90%; }
   .dias img {
     width: 50%;
-    margin-left: 45%; }
+    margin-left: 50%; }
+  .portada img,
   .portada-sam img,
   .portada-sza img {
-    width: 100%; }
+    width: 100vw; }
   .portada-sam h2,
   .portada-sza h2 {
-    margin-top: -250px;
+    margin-top: -150px;
     font-size: 3rem; }
   .sza img {
     width: 50%;
