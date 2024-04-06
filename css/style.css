@@ -592,7 +592,7 @@ input[type="submit"]:hover {
   background-color: #45a049; }
 
 a {
-  color: #4CAF50;
+  color: #2D69E8;
   text-decoration: none;
   margin-right: 10px; }
 
@@ -607,6 +607,94 @@ a:hover {
 .check {
   font-weight: normal;
   margin-left: 5px; }
+
+footer {
+  position: absolute;
+  background: #ffffff;
+  width: 100vw;
+  margin-bottom: 0;
+  left: 0; }
+
+.logo_name img {
+  width: 60px;
+  height: auto; }
+
+footer::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100px;
+  height: 1px;
+  width: 100%;
+  background: #AFAFB6; }
+
+footer .content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px; }
+
+footer .content .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px; }
+
+.content .top .logo-details {
+  color: #000000;
+  font-size: 30px; }
+
+footer .content .link-boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+footer .content .link-boxes .box {
+  width: calc(100% / 5 - 10px); }
+
+.content .link-boxes {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative; }
+
+.link_name::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #fff; }
+
+footer .bottom-details .bottom_text {
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between; }
+
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+  opacity: 0.8;
+  text-decoration: none; }
+
+.bottom-details .bottom_text a:hover {
+  opacity: 1;
+  text-decoration: underline; }
+
+.bottom-details .bottom_text a {
+  margin-right: 10px; }
+
+@media (max-width: 900px) {
+  footer .content .link-boxes {
+    flex-wrap: wrap; }
+  footer .content .link-boxes .input-box {
+    width: 40%;
+    margin-top: 10px; } }
 
 @media (max-width: 768px) {
   header {
@@ -796,12 +884,12 @@ a:hover {
     font-size: 1rem;
     width: 90%; }
   .sza p {
-    margin-top: -125%;
-    margin-left: 67%;
+    margin-top: -110%;
+    margin-left: 74%;
     font-size: 1rem;
     width: 720px; }
   .sza-deslumbra p {
-    margin-top: 1%;
+    margin-top: -123%;
     margin-left: 3%;
     font-size: 1rem;
     width: 295px; }
@@ -825,8 +913,8 @@ a:hover {
   .sza img {
     width: 50%;
     height: auto;
-    margin-left: 110%;
-    margin-top: 65%; }
+    margin-left: 120%;
+    margin-top: 50%; }
   .sam-regresa img {
     display: flex;
     flex-direction: inherit;
@@ -839,102 +927,12 @@ a:hover {
     margin-left: 10%; }
   .logo-vinyl h1 {
     font-size: 2rem; }
-  .footer-footer-more {
-    padding: 20px 10px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin-top: 70%;
-    overflow-x: hidden; }
-  .footer-footer-more .frame {
-    gap: 10px;
-    width: 48%;
-    flex-direction: column; }
-  .footer-footer-more .divider {
-    display: none; }
-  .footer-footer-more .div {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%; }
-  .footer-footer-more .frame-2 {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%; }
-  .footer-footer-more .frame-3 {
-    gap: 5px;
-    width: 100%; }
-  .footer-footer-more .frame-4 {
-    flex-direction: row;
-    justify-content: center;
-    width: 100%; }
-  .footer-footer-more .img {
-    width: 100%;
-    height: auto;
-    max-width: 120px; }
-  .footer-footer-more .frame-5 {
-    width: 100%; }
-  .footer-footer-more .frame-6 {
-    flex-direction: column;
-    gap: 5px;
-    width: 48%; }
-  .footer-footer-more .links {
-    flex-direction: row;
-    justify-content: center;
-    gap: 5px;
-    width: 100%; }
-  .footer-footer-more .frame-7 {
-    flex-direction: row;
-    justify-content: space-between;
-    width: 48%; }
-  .footer-footer-more .frame-8 {
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%; } }
-
-@media (max-width: 425px) {
-  header {
-    height: 8vh;
-    font-size: 8px; }
-  .logo {
-    width: 10px; }
-  .index {
-    left: 10px;
-    gap: 3px;
-    font-size: 0.7rem; }
-  .index li {
-    padding-left: 5px; }
-  .login {
-    right: 5px;
-    font-size: 0.7rem;
-    margin-top: -1px; }
-  .login a {
-    margin-left: 0.2rem; }
-  .descubri h1,
-  .descubri h2,
-  .descubri h3 {
-    font-size: 1.4rem; }
-  .novedades {
-    height: 250px;
-    gap: 5px; }
-  .nov-text {
-    margin-left: 5px;
-    font-size: 1rem;
-    margin-top: -22%; }
-  .lolla img,
-  .sza img,
-  .sam-smith img {
-    width: 96%;
-    margin-left: 2%; }
-  .lolla h2,
-  .sza h2,
-  .sam-smith h2 {
-    font-size: 1rem;
-    top: unset;
-    left: unset; }
-  .footer-footer-more {
-    padding: 10px;
-    margin-top: 20%; }
-  .footer-footer-more .img {
-    max-width: 80px; } }
+  footer {
+    position: relative; }
+  footer .content .link-boxes .box {
+    width: calc(100% / 3 - 10px); }
+  footer .content .link-boxes .input-box {
+    width: 60%; }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a {
+    font-size: 12px; } }
