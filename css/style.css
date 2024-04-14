@@ -7,7 +7,12 @@
 body {
   width: 98vw;
   font-family: Arial, sans-serif;
-  background-color: #f7f7f7; }
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+nav label input {
+  display: none; }
 
 header {
   display: flex;
@@ -70,7 +75,7 @@ header {
 
 .nov-text {
   color: #000;
-  top: 110%;
+  top: 105%;
   z-index: 3; }
 
 .descubri img {
@@ -133,14 +138,14 @@ h2, h3 {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  top: 165%;
+  top: 90.625rem;
   align-content: space-around;
   background: linear-gradient(to bottom, transparent, black);
   border-radius: 10px; }
 
 .lolla img {
   width: 100%;
-  height: 50%;
+  height: 100%;
   border-radius: 30px; }
 
 .sza img {
@@ -153,7 +158,7 @@ h2, h3 {
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  top: 182%;
+  top: 162%;
   left: 62%;
   align-content: space-around;
   background: linear-gradient(to bottom, transparent, black);
@@ -169,7 +174,7 @@ h2, h3 {
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  top: 239%;
+  top: 219%;
   left: 62%;
   align-content: space-around;
   background: linear-gradient(to bottom, transparent, black);
@@ -323,7 +328,7 @@ h2, h3 {
   flex-direction: row;
   font-size: 27px;
   color: #000;
-  top: 154%;
+  top: 150%;
   margin-left: 40px;
   width: 700px; }
 
@@ -343,7 +348,7 @@ h2, h3 {
 .dia-uno h3 {
   font-size: 27px;
   color: #000;
-  top: 185%;
+  top: 180%;
   margin-left: 40px;
   width: 700px; }
 
@@ -361,7 +366,7 @@ h2, h3 {
 .dia-dos h3 {
   font-size: 27px;
   color: #000;
-  top: 235%;
+  top: 230%;
   margin-left: 40px; }
 
 .dia-dos p {
@@ -378,7 +383,7 @@ h2, h3 {
 .dia-tres h3 {
   font-size: 27px;
   color: #000;
-  top: 280%;
+  top: 275%;
   margin-left: 40px; }
 
 .dia-tres p {
@@ -505,7 +510,7 @@ h2, h3 {
 .sza-deslumbra h3 {
   font-size: 27px;
   color: #000;
-  top: 187%;
+  top: 184%;
   width: 1000px;
   margin-left: 40px; }
 
@@ -694,7 +699,9 @@ footer .bottom-details .bottom_text {
     flex-wrap: wrap; }
   footer .content .link-boxes .input-box {
     width: 40%;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  header label input {
+    display: none; } }
 
 @media (max-width: 768px) {
   header {
@@ -736,14 +743,14 @@ footer .bottom-details .bottom_text {
   .nov-text {
     margin-left: 10px;
     font-size: 1.2rem;
-    margin-top: -32%; }
+    margin-top: -48%; }
   .lolla img {
     grid-area: img1;
     width: 98%;
     height: 300px;
     margin-left: 10px; }
   .lolla h2 {
-    top: 116%;
+    top: 90%;
     left: 2%;
     font-size: 1.2rem; }
   .sza {
@@ -754,7 +761,7 @@ footer .bottom-details .bottom_text {
     width: 98%;
     margin-left: 40%; }
   .sza h2 {
-    top: 156%;
+    top: 120%;
     left: 50%;
     font-size: 1.2rem; }
   .sam-smith img {
@@ -764,7 +771,7 @@ footer .bottom-details .bottom_text {
     margin-left: 10px;
     height: 75%; }
   .sam-smith h2 {
-    top: 156%;
+    top: 120%;
     left: 10px;
     font-size: 1.2rem; }
   .explore img {
@@ -781,7 +788,7 @@ footer .bottom-details .bottom_text {
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "img1 img1" "img3 img2" ". ."; }
   .nov-text1 {
-    top: 138%;
+    top: 112%;
     font-size: 1.5rem; }
   .lolla1 img {
     grid-area: img1;
@@ -789,7 +796,7 @@ footer .bottom-details .bottom_text {
     height: 300px;
     margin-left: 10px; }
   .lolla1 h2 {
-    top: 180%;
+    top: 140%;
     left: 2%;
     font-size: 2.2rem; }
   .sza1 {
@@ -798,7 +805,7 @@ footer .bottom-details .bottom_text {
     height: 100%;
     margin-left: -40%; }
   .sza1 h2 {
-    top: 233%;
+    top: 185%;
     left: 50%;
     font-size: 2.2rem; }
   .sam-smith1 img {
@@ -807,43 +814,43 @@ footer .bottom-details .bottom_text {
     height: 300px;
     margin-left: 10px; }
   .sam-smith1 h2 {
-    top: 233%;
+    top: 185%;
     left: 10px;
     font-size: 2.2rem; }
   .portada h1 {
-    top: 40%;
+    top: 30%;
     width: 100%;
     font-size: 2rem; }
   .vibraciones h3 {
-    top: 50%;
+    top: 41%;
     width: 100%;
     font-size: 1rem; }
   .tres-dias h3 {
     font-size: 1rem;
-    top: 87%;
+    top: 70%;
     width: 300px; }
   .dia-uno h3 {
-    top: 105%;
+    top: 85%;
     width: 300px;
     font-size: 1rem; }
   .dia-dos h3 {
-    top: 133%;
+    top: 107%;
     width: 300px;
     font-size: 1rem; }
   .dia-tres h3 {
-    top: 160%;
+    top: 128%;
     width: 300px;
     font-size: 1rem; }
   .sam-regresa h3 {
-    top: 65%;
+    top: 55%;
     width: 95%;
     font-size: 1.5rem; }
   .la-voz h3 {
-    top: 155%;
+    top: 125%;
     width: 300px;
     font-size: 1.5rem; }
   .sza-deslumbra h3 {
-    margin-top: -60%;
+    margin-top: -95%;
     margin-left: 3%;
     width: 600px;
     font-size: 1rem; }
@@ -908,7 +915,7 @@ footer .bottom-details .bottom_text {
     width: 100vw; }
   .portada-sam h2,
   .portada-sza h2 {
-    margin-top: -150px;
+    margin-top: -12.5rem;
     font-size: 3rem; }
   .sza img {
     width: 50%;
@@ -928,7 +935,9 @@ footer .bottom-details .bottom_text {
   .logo-vinyl h1 {
     font-size: 2rem; }
   footer {
-    position: relative; }
+    position: relative;
+    width: 100vw;
+    margin-top: 150vh; }
   footer .content .link-boxes .box {
     width: calc(100% / 3 - 10px); }
   footer .content .link-boxes .input-box {
@@ -936,3 +945,89 @@ footer .bottom-details .bottom_text {
   .bottom-details .bottom_text span,
   .bottom-details .bottom_text a {
     font-size: 12px; } }
+
+@media (max-width: 425px) {
+  body {
+    overflow-x: hidden; }
+  .descubri {
+    width: 100vw;
+    margin-top: -27px; }
+    .descubri h1, .descubri h2, .descubri h3 {
+      font-size: 15px;
+      margin-top: -30px; }
+    .descubri h2 {
+      padding-left: 7.5rem; }
+    .descubri h3 {
+      margin-top: -5px; }
+  .nov-text {
+    top: 60vh; }
+  .novedades {
+    display: grid;
+    width: 100%;
+    height: 300px;
+    margin-top: 5%;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "img1 img1" "img3 img3" "img2 img2"; }
+    .novedades .lolla h2 {
+      top: 65%; }
+    .novedades .sam-smith h2 {
+      top: 110%; }
+    .novedades .sam-smith img {
+      height: 100%; }
+    .novedades .sza img {
+      width: 100%;
+      height: 100%;
+      margin-left: 74%;
+      margin-top: 5%; }
+    .novedades .sza h2 {
+      left: 10%;
+      top: 140%; }
+  .explore img {
+    width: 100vw;
+    height: 30vh; }
+  .explore h2 {
+    top: 17%; }
+  .explore .nov-text1 {
+    top: 50vh; }
+  .explore .novedades1 {
+    display: grid;
+    width: 100%;
+    height: 300px;
+    margin-top: 10%;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "img1 img1" "img2 img2" "img2 img2"; }
+    .explore .novedades1 .lolla1 h2 {
+      top: 65%; }
+    .explore .novedades1 .sam-smith1 h2 {
+      top: 80%; }
+    .explore .novedades1 .sza1 img {
+      width: 100%;
+      height: 100%;
+      margin-left: 74%;
+      margin-top: 5%; }
+    .explore .novedades1 .sza1 h2 {
+      left: 10%;
+      top: 120%; }
+  .portada h1 {
+    margin-top: -20%;
+    font-size: 20px; }
+  .vibraciones h3 {
+    margin-top: -25%;
+    font-size: 11px;
+    margin-left: 25px; }
+  .vibraciones p {
+    margin-top: 25px;
+    margin-left: 25px; }
+  .tres-dias h3 {
+    font-size: 11px;
+    margin-left: 25px;
+    margin-top: 12%;
+    width: 200px; }
+  .tres-dias p {
+    margin-left: 25px;
+    width: 170px;
+    margin-top: -52%; } }
