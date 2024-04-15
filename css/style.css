@@ -1019,6 +1019,8 @@ footer .bottom-details .bottom_text {
     margin-top: -25%;
     font-size: 11px;
     margin-left: 25px; }
+  .dias img {
+    height: 400px; }
   .vibraciones p {
     margin-top: 25px;
     margin-left: 25px; }
@@ -1030,4 +1032,52 @@ footer .bottom-details .bottom_text {
   .tres-dias p {
     margin-left: 25px;
     width: 170px;
-    margin-top: -52%; } }
+    margin-top: -85%; }
+  .dia-uno h3 {
+    font-size: 11px;
+    margin-left: 25px;
+    margin-top: 20%;
+    width: 180px; }
+  .dia-uno p {
+    margin-left: 25px;
+    width: 170px;
+    margin-top: 0; }
+  .dia-dos h3 {
+    font-size: 11px;
+    margin-left: 25px;
+    margin-top: 40%; }
+  .dia-dos p {
+    margin-left: 25px;
+    width: 374px;
+    margin-top: 0; }
+  .dia-tres h3 {
+    font-size: 11px;
+    margin-left: 25px;
+    margin-top: 35%;
+    width: 374px; }
+  .dia-tres p {
+    margin-left: 25px;
+    width: 374px;
+    margin-top: 5%; }
+  .portada-sam h2 {
+    margin-top: -85%;
+    margin-left: 25px; }
+  .sam-regresa h3 {
+    margin-top: -35%;
+    margin-left: 25px; }
+  .sam-regresa p {
+    margin-top: 30%;
+    margin-left: 25px; }
+  .sam-regresa img {
+    margin-left: 40px; }
+  .la-voz h3 {
+    margin-top: 105vh;
+    margin-left: 25px;
+    width: 90%; }
+  .la-voz p {
+    margin-left: 25px;
+    margin-top: 25%;
+    width: 90%; }
+  .large {
+    margin-left: 25px;
+    width: 90%; } }
