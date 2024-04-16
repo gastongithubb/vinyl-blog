@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 body {
@@ -398,14 +399,14 @@ h2, h3 {
 .dia-uno h3 {
     font-size: 27px;
     color: #000;
-    top: 180%;
+    top: 183%;
     margin-left: 40px;
     width: 700px;
 }
 
 .dia-uno p {
     color: #000;
-    margin-top: -4%;
+    margin-top: -40%;
     margin-left: 40px;
     margin-bottom: 10%;
     font-family: poppins;
@@ -418,13 +419,13 @@ h2, h3 {
 .dia-dos h3 {
     font-size: 27px;
     color: #000;
-    top: 230%;
+    top: 232%;
     margin-left: 40px;
 }
 
 .dia-dos p {
     color: #000;
-    margin-top: -7%;
+    margin-top: -18%;
     margin-left: 40px;
     margin-bottom: 10%;
     font-family: poppins;
@@ -437,7 +438,7 @@ h2, h3 {
 .dia-tres h3 {
     font-size: 27px;
     color: #000;
-    top: 275%;
+    top: 278%;
     margin-left: 40px;
 }
 
@@ -567,7 +568,7 @@ h2, h3 {
 .sza-large {
     color: #000;
     margin-top: 300%;
-    margin-left: -525%;
+    margin-left: -532%;
     margin-bottom: 10%;
     font-family: poppins;
     text-align: justify;
@@ -581,13 +582,13 @@ h2, h3 {
     color: #000;
     top: 184%;
     width: 1000px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .sza-deslumbra p {
     color: #000;
-    margin-top: -5%;
-    margin-left: 40px;
+    margin-top: -75%;
+    margin-left: 33px;
     margin-bottom: 10%;
     font-family: poppins;
     text-align: justify;
@@ -598,7 +599,7 @@ h2, h3 {
 .large-sza {
     color: #000;
     margin-top: -10%;
-    margin-left: 40px;
+    margin-left: 33px;
     margin-bottom: 10%;
     font-family: poppins;
     text-align: justify;
@@ -797,11 +798,12 @@ header label input {
 
 @media (max-width: 768px) {
     header {
-        width: 100vw;
+        width: 99.7vw;
         height: 9vh;
         font-size: 10px;
         margin-left: 0;
         margin-right: 0;
+        overflow-x: hidden;
     }
 
     .logo {
@@ -829,7 +831,7 @@ header label input {
     }
 
     .descubri img {
-        width: 100vw;
+        width: 99.7vw;
     }
 
     .descubri h1,
@@ -869,7 +871,7 @@ header label input {
     }
 
     .lolla h2{
-        top: 90%;
+        top: 95%;
         left: 2%;
         font-size: 1.2rem;
     }
@@ -898,16 +900,17 @@ header label input {
     }
 
     .sam-smith h2 {
-        top: 120%;
+        top: 130%;
         left: 10px;
         font-size: 1.2rem;
     }
     .explore img {
-        width: 100vw;
+        width: 99.7vw;
         height: 500px;
     }
     .explore h2 {
         top: 40%;
+        width: 90%;
         font-size: 3rem;
     }
 
@@ -936,7 +939,7 @@ header label input {
     }
 
     .lolla1 h2{
-        top: 140%;
+        top: 145%;
         left: 2%;
         font-size: 2.2rem;
     }
@@ -944,12 +947,12 @@ header label input {
     .sza1 {
         grid-area: img2;
         width: 98%;
-        height: 100%;
+        height: 93%;
         margin-left: -40%;
     }
 
     .sza1 h2 {
-        top: 185%;
+        top: 195%;
         left: 50%;
         font-size: 2.2rem;
     }
@@ -962,22 +965,23 @@ header label input {
     }
 
     .sam-smith1 h2 {
-        top: 185%;
+        top: 195%;
         left: 10px;
         font-size: 2.2rem;
     }
 
     .portada h1 {
         top: 30%;
-        width: 100%;
+        width: 98vw;
         font-size: 2rem;
     }
 
 
     .vibraciones h3 {
         top: 41%;
-        width: 100%;
+        width: 90%;
         font-size: 1rem;
+        margin-left: 40px;
     }
     .tres-dias h3 {
         font-size: 1rem;
@@ -1001,11 +1005,11 @@ header label input {
     }
     .sam-regresa h3 {
         top: 55%;
-        width: 95%;
+        width: 90%;
         font-size: 1.5rem;
     }
     .la-voz h3 {
-        top: 125%;
+        top: 135%;
         width: 300px;
         font-size: 1.5rem;
     }
@@ -1018,22 +1022,22 @@ header label input {
 
     
     .vibraciones p {
-        margin-top: 10px;
+        margin-top: 0;
         font-size: .625rem;
         width: 90%;
     }
     .tres-dias p {
-        margin-top: -55%;
+        margin-top: -56%;
         font-size: .625rem;
         width: 295px;
     }
     .dia-uno p {
-        margin-top: -2%;
+        margin-top: -41%;
         font-size: .625rem;
         width: 295px;
     }
     .dia-dos p {
-        margin-top: -4%;
+        margin-top: -19%;
         font-size: .625rem;
         width: 295px;
     }
@@ -1068,7 +1072,7 @@ header label input {
         width: 720px;
     }
     .sza-deslumbra p {
-        margin-top: -123%;
+        margin-top: -298%;
         margin-left: 3%;
         font-size: 1rem;
         width: 295px;
@@ -1177,10 +1181,10 @@ header label input {
             "img2 img2";
         
         .lolla h2 {
-            top: 65%;
+            top: 70%;
         }
         .sam-smith h2 {
-            top: 110%;
+            top: 115%;
         }
         .sam-smith img {
             height: 100%;
@@ -1192,8 +1196,8 @@ header label input {
             margin-top: 5%;
         }
         .sza h2 {
-            left: 10%;
-            top: 140%
+            left: 5%;
+            top: 148%
         }
     }
 
@@ -1224,7 +1228,7 @@ header label input {
                 "img2 img2";
             
             .lolla1 h2 {
-                top: 65%;
+                top: 85%;
             }
             .sam-smith1 h2 {
                 top: 80%;
@@ -1260,7 +1264,7 @@ header label input {
         height: 400px;
     }
     .vibraciones p {
-        margin-top: 25px;
+        margin-top: 10px;
         margin-left: 25px;
     }
     .tres-dias h3 {
@@ -1272,7 +1276,7 @@ header label input {
     .tres-dias p {
         margin-left: 25px;
         width: 170px;
-        margin-top: -85%;
+        margin-top: -90%;
     }
     .dia-uno h3 {
         font-size: 11px;
@@ -1283,7 +1287,7 @@ header label input {
     .dia-uno p {
         margin-left: 25px;
         width: 170px;
-        margin-top: 0;
+        margin-top: -54%;
     }
     .dia-dos h3 {
         font-size: 11px;
@@ -1324,7 +1328,7 @@ header label input {
         margin-left: 40px;
     }
     .la-voz h3 {
-        margin-top: 105vh;
+        margin-top: 98vh;
         margin-left: 25px;
         width: 90%;
     }
@@ -1336,5 +1340,31 @@ header label input {
     .large {
         margin-left: 25px;
         width: 90%;
+    }
+        /*SZA**/
+    .portada-sza h2 {
+        margin-top: -40vh;
+    }
+    .sza p {
+        width: 90vw;
+        margin-left: 76%;
+        margin-top: -228%;
+    }
+    .sza img {
+        margin-top: 140%;
+        margin-left: 86%;
+        width: 300px;
+    }
+    .sza-deslumbra h3 {
+        margin-top: 12%;
+        width: 90vw;
+    }
+    .sza-deslumbra p {
+        margin-top: -198%;
+        width: 90vw;
+    }
+    .large-sza {
+        width: 90vw;
+        margin-left: 3%;
     }
 }
