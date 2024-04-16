@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 body {
@@ -860,7 +859,7 @@ header label input {
     .nov-text {
         margin-left: 10px;
         font-size: 1.2rem;
-        margin-top: -48%;
+        margin-top: -30%;
     }
 
     .lolla img {
@@ -871,7 +870,7 @@ header label input {
     }
 
     .lolla h2{
-        top: 95%;
+        margin-top: 15%;
         left: 2%;
         font-size: 1.2rem;
     }
@@ -886,7 +885,7 @@ header label input {
         margin-left: 40%;
     }
     .sza h2 {
-        top: 120%;
+        margin-top: 30%;
         left: 50%;
         font-size: 1.2rem;
     }
@@ -900,13 +899,13 @@ header label input {
     }
 
     .sam-smith h2 {
-        top: 130%;
+        margin-top: 25%;
         left: 10px;
         font-size: 1.2rem;
     }
     .explore img {
         width: 99.7vw;
-        height: 500px;
+        margin-top: -12%;
     }
     .explore h2 {
         top: 40%;
@@ -971,21 +970,21 @@ header label input {
     }
 
     .portada h1 {
-        top: 30%;
+        top: 35%;
         width: 98vw;
         font-size: 2rem;
     }
 
 
     .vibraciones h3 {
-        top: 41%;
+        top: 48%;
         width: 90%;
         font-size: 1rem;
         margin-left: 40px;
     }
     .tres-dias h3 {
         font-size: 1rem;
-        top: 70%;
+        top: 80%;
         width:300px;
     }
     .dia-uno h3 {
@@ -1027,12 +1026,12 @@ header label input {
         width: 90%;
     }
     .tres-dias p {
-        margin-top: -56%;
+        margin-top: -10%;
         font-size: .625rem;
         width: 295px;
     }
     .dia-uno p {
-        margin-top: -41%;
+        margin-top: -20%;
         font-size: .625rem;
         width: 295px;
     }
