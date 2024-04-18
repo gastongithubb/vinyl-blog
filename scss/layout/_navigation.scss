@@ -1,0 +1,73 @@
+body {
+    width: 98vw;
+    font-family: $font-family_1;
+    background-color: $background-color_1;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+nav label input {
+    display: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    margin: 0;
+    margin-left: 8px;
+    height: 10vh;
+    width: 99%;
+    font-size: 12px;
+    font-family: $font-family_2;
+    text-align: left;
+    border-radius: 12px;
+    background-color: $background-color_2;  
+    backdrop-filter: blur(5px);
+    box-shadow: #666666;
+    z-index: 3;
+    
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    top: -3px;
+    align-content: center;
+}
+/* Estilos para la lista de índice */
+.index {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 70px;
+    gap: 10px;
+    list-style: none;
+    font-size: 1rem;
+    z-index: 2;
+    li {
+        margin-top: -7px;
+        padding-left: 20px;
+        color: $color_1;
+        a {
+            text-decoration: none;
+            color: $color_1;
+        }
+    }
+}
+.login {
+    flex-direction: row-reverse;
+    position: absolute;
+    right: 2%;
+    top: 40%;
+    font-size: 1rem;
+    z-index: 2;
+    a {
+        text-decoration: none;
+        color: $color_1;
+        margin-left: .625rem;
+    }
+}
