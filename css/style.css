@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: red solid 1px; }
 
 body {
   width: 98vw;
@@ -125,9 +126,10 @@ h2, h3 {
 
 .sza {
   grid-area: img2;
-  width: 30%;
+  width: 100%;
+  height: 100%;
   border-radius: 30px;
-  margin-left: -70%; }
+  margin-left: -450%; }
 
 .sam-smith {
   grid-area: img3;
@@ -150,7 +152,7 @@ h2, h3 {
 
 .sza img {
   width: 100%;
-  height: 50%;
+  height: 100%;
   border-radius: 30px; }
 
 .sza h2 {
@@ -336,7 +338,7 @@ h2, h3 {
   display: flex;
   flex-direction: row;
   color: #000;
-  margin-top: -55%;
+  margin-top: -56%;
   margin-left: 40px;
   margin-bottom: 10%;
   font-family: poppins;
@@ -366,12 +368,12 @@ h2, h3 {
 .dia-dos h3 {
   font-size: 27px;
   color: #000;
-  top: 232%;
+  top: 234%;
   margin-left: 40px; }
 
 .dia-dos p {
   color: #000;
-  margin-top: -18%;
+  margin-top: -17%;
   margin-left: 40px;
   margin-bottom: 10%;
   font-family: poppins;
@@ -383,7 +385,7 @@ h2, h3 {
 .dia-tres h3 {
   font-size: 27px;
   color: #000;
-  top: 278%;
+  top: 280%;
   margin-left: 40px; }
 
 .dia-tres p {
@@ -421,7 +423,7 @@ h2, h3 {
 .sam-regresa h3 {
   font-size: 27px;
   color: #000;
-  top: 103%;
+  top: 100%;
   width: 850px;
   margin-left: 40px; }
 
@@ -439,7 +441,7 @@ h2, h3 {
 .la-voz h3 {
   font-size: 27px;
   color: #000;
-  top: 185%;
+  top: 184%;
   width: 850px;
   margin-left: 40px; }
 
@@ -467,7 +469,7 @@ h2, h3 {
 .portada-sza h2 {
   position: absolute;
   font-size: 12rem;
-  top: 60%;
+  top: 58%;
   left: 2%;
   color: #FFFFFF;
   z-index: 3; }
@@ -483,12 +485,12 @@ h2, h3 {
   width: 400px;
   height: 400px;
   margin-top: 3%;
-  margin-left: 460%; }
+  margin-left: 520%; }
 
 .sza p {
   color: #000;
-  margin-top: -94%;
-  margin-left: 240%;
+  margin-top: 0%;
+  margin-left: -700%;
   margin-bottom: 10%;
   font-family: poppins;
   text-align: justify;
@@ -617,60 +619,9 @@ footer {
   position: absolute;
   background: #ffffff;
   width: 100vw;
+  margin: 10% 0 0 0;
   margin-bottom: 0;
   left: 0; }
-
-.logo_name img {
-  width: 60px;
-  height: auto; }
-
-footer::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 100px;
-  height: 1px;
-  width: 100%;
-  background: #AFAFB6; }
-
-footer .content {
-  max-width: 1250px;
-  margin: auto;
-  padding: 30px 40px 40px 40px; }
-
-footer .content .top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 50px; }
-
-.content .top .logo-details {
-  color: #000000;
-  font-size: 30px; }
-
-footer .content .link-boxes {
-  width: 100%;
-  display: flex;
-  justify-content: space-between; }
-
-footer .content .link-boxes .box {
-  width: calc(100% / 5 - 10px); }
-
-.content .link-boxes {
-  color: #000000;
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 10px;
-  position: relative; }
-
-.link_name::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  height: 2px;
-  width: 35px;
-  background: #fff; }
 
 footer .bottom-details .bottom_text {
   max-width: 1250px;
@@ -744,14 +695,14 @@ footer .bottom-details .bottom_text {
   .nov-text {
     margin-left: 10px;
     font-size: 1.2rem;
-    margin-top: -30%; }
+    margin-top: -28%; }
   .lolla img {
     grid-area: img1;
     width: 98%;
     height: 300px;
     margin-left: 10px; }
   .lolla h2 {
-    margin-top: 15%;
+    margin-top: -95%;
     left: 2%;
     font-size: 1.2rem; }
   .sza {
@@ -762,7 +713,7 @@ footer .bottom-details .bottom_text {
     width: 98%;
     margin-left: 40%; }
   .sza h2 {
-    margin-top: 30%;
+    margin-top: 5%;
     left: 50%;
     font-size: 1.2rem; }
   .sam-smith img {
@@ -772,14 +723,15 @@ footer .bottom-details .bottom_text {
     margin-left: 10px;
     height: 75%; }
   .sam-smith h2 {
-    margin-top: 25%;
+    margin-top: -40%;
     left: 10px;
     font-size: 1.2rem; }
   .explore img {
     width: 99.7vw;
+    height: 70vh;
     margin-top: -12%; }
   .explore h2 {
-    top: 40%;
+    top: 48%;
     width: 90%;
     font-size: 3rem; }
   .novedades1 {
@@ -790,7 +742,7 @@ footer .bottom-details .bottom_text {
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "img1 img1" "img3 img2" ". ."; }
   .nov-text1 {
-    top: 112%;
+    top: 145%;
     font-size: 1.5rem; }
   .lolla1 img {
     grid-area: img1;
@@ -798,7 +750,7 @@ footer .bottom-details .bottom_text {
     height: 300px;
     margin-left: 10px; }
   .lolla1 h2 {
-    top: 145%;
+    top: 185%;
     left: 2%;
     font-size: 2.2rem; }
   .sza1 {
@@ -807,7 +759,7 @@ footer .bottom-details .bottom_text {
     height: 93%;
     margin-left: -40%; }
   .sza1 h2 {
-    top: 195%;
+    top: 245%;
     left: 50%;
     font-size: 2.2rem; }
   .sam-smith1 img {
@@ -816,40 +768,40 @@ footer .bottom-details .bottom_text {
     height: 300px;
     margin-left: 10px; }
   .sam-smith1 h2 {
-    top: 195%;
+    top: 245%;
     left: 10px;
     font-size: 2.2rem; }
   .portada h1 {
-    top: 35%;
-    width: 98vw;
+    top: 40%;
+    width: 90vw;
     font-size: 2rem; }
   .vibraciones h3 {
-    top: 48%;
+    top: 50%;
     width: 90%;
     font-size: 1rem;
     margin-left: 40px; }
   .tres-dias h3 {
     font-size: 1rem;
-    top: 80%;
+    top: 86%;
     width: 300px; }
   .dia-uno h3 {
-    top: 85%;
+    top: 105%;
     width: 300px;
     font-size: 1rem; }
   .dia-dos h3 {
-    top: 107%;
+    top: 133%;
     width: 300px;
     font-size: 1rem; }
   .dia-tres h3 {
-    top: 128%;
+    top: 160%;
     width: 300px;
     font-size: 1rem; }
   .sam-regresa h3 {
-    top: 55%;
+    top: 68%;
     width: 90%;
     font-size: 1.5rem; }
   .la-voz h3 {
-    top: 135%;
+    top: 165%;
     width: 300px;
     font-size: 1.5rem; }
   .sza-deslumbra h3 {
@@ -862,11 +814,11 @@ footer .bottom-details .bottom_text {
     font-size: .625rem;
     width: 90%; }
   .tres-dias p {
-    margin-top: -10%;
+    margin-top: -56%;
     font-size: .625rem;
     width: 295px; }
   .dia-uno p {
-    margin-top: -20%;
+    margin-top: -41%;
     font-size: .625rem;
     width: 295px; }
   .dia-dos p {
@@ -918,7 +870,7 @@ footer .bottom-details .bottom_text {
     width: 100vw; }
   .portada-sam h2,
   .portada-sza h2 {
-    margin-top: -12.5rem;
+    margin-top: -8.5rem;
     font-size: 3rem; }
   .sza img {
     width: 50%;
@@ -939,7 +891,7 @@ footer .bottom-details .bottom_text {
     font-size: 2rem; }
   footer {
     position: relative;
-    width: 100vw;
+    width: 98vw;
     margin-top: 150vh; }
   footer .content .link-boxes .box {
     width: calc(100% / 3 - 10px); }
@@ -974,9 +926,9 @@ footer .bottom-details .bottom_text {
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "img1 img1" "img3 img3" "img2 img2"; }
     .novedades .lolla h2 {
-      top: 70%; }
+      top: 148%; }
     .novedades .sam-smith h2 {
-      top: 115%; }
+      top: 168%; }
     .novedades .sam-smith img {
       height: 100%; }
     .novedades .sza img {
@@ -986,7 +938,7 @@ footer .bottom-details .bottom_text {
       margin-top: 5%; }
     .novedades .sza h2 {
       left: 5%;
-      top: 148%; }
+      top: 198%; }
   .explore img {
     width: 100vw;
     height: 30vh; }
