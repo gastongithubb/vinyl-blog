@@ -1,177 +1,71 @@
 .novedades {
     display: grid;
-    top: 10px;
-    width: 100%;
-    height: 800px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 98vw;
+    margin: 10px ;
     gap: 10px;
-    grid-template-areas: 
-    "img1 img1 img1 img2 img2"
-    "img1 img1 img1 img3 img3";
+    text-align: center;
 }
 
+.novedades a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
 
-.lolla {
-    grid-area: img1;
-    width: 100%;
-    h2 {
-        z-index: 3;
-    }
+.novedades h2 {
+    margin-top: 0;
 }
-.sza {
-    grid-area: img2;
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-    margin-left: -450%;
-}
+
+.lolla,
+.sza,
 .sam-smith {
-    grid-area: img3;
-    width: 100%;
-    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
 }
 
-.lolla h2 {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-    top: 90.625rem;
-    align-content: space-around;
-    background: linear-gradient(to bottom, transparent, black);
-    border-radius: 10px;
-}
-
-.lolla img{
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-}
-
-.sza img {
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-}
-
-.sza h2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    top: 162%;
-    left: 62%;
-    align-content: space-around;
-    background: linear-gradient(to bottom, transparent, black);
-    border-radius: 10px;
-}
-
+.lolla img,
+.sza img,
 .sam-smith img {
     width: 100%;
-    height: 100%;
-    border-radius: 30px;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 1s ease;
+}
+.sza img {
+    margin-top: 0;
+    margin-left: 0%;
 }
 
+
+.lolla h2,
+.sza h2,
 .sam-smith h2 {
-    display: flex;
-    flex-direction: column;
+    position: absolute;
+    align-items: center;
     justify-content: center;
-    flex-shrink: 0;
-    top: 219%;
-    left: 62%;
-    align-content: space-around;
-    background: linear-gradient(to bottom, transparent, black);
+    bottom: 3px;
+    top: 0;
+    left: 0px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: $color_2;
+    padding: 5px;
     border-radius: 10px;
+    margin: 0;
+    transition: opacity 1s ease;
+    opacity: 0;
+    font-size: 50px;
 }
 
-
-
-.novedades1 {
-    display: grid;
-    margin-top: -25px;
-    width: 98%;
-    height: 800px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 5px;
-    grid-template-areas: 
-    "img1 img1 img1 img2 img2"
-    "img1 img1 img1 img3 img3";
+.lolla:hover h2,
+.sza:hover h2,
+.sam-smith:hover h2 {
+    opacity: 1;
 }
 
-.nov-text1 {
-    color: $color_1;
-    top: 100%;
-    z-index: 3;
-}
-
-
-.lolla1 {
-    grid-area: img1;
-    width: 100%;
-    h2 {
-        z-index: 3;
-    }
-}
-.sza1 {
-    grid-area: img2;
-    width: 100%;
-    border-radius: 30px;
-}
-.sam-smith1 {
-    grid-area: img3;
-    width: 100%;
-    border-radius: 30px;
-}
-
-.lolla1 h2 {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-    top: 205%;
-    align-content: space-around;
-    background: linear-gradient(to bottom, transparent, black);
-    border-radius: 10px;
-}
-
-.lolla1 img{
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-}
-
-.sza1 img {
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-}
-
-.sza1 h2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    top: 155%;
-    left: 62%;
-    align-content: space-around;
-    background: linear-gradient(to bottom, transparent, black);
-    border-radius: 10px;
-}
-
-.sam-smith1 img {
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-}
-
-.sam-smith1 h2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    top: 213%;
-    left: 62%;
-    align-content: space-around;
-    background: linear-gradient(to bottom, transparent, black);
-    border-radius: 10px;
+.sza,
+.sam-smith {
+    grid-row: span 2;
 }
